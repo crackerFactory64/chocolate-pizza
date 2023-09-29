@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container > div {
+  align-items: center;
+  display: flex;
+}
+
+.header-container > div:first-of-type {
+  align-items: flex-end;
+  gap: 10px;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-family: cursive;
+  font-size: 2.5rem;
+  font-style: italic;
+  margin: 0;
+}
+
+.logo-container > p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header ul {
+  display: flex;
+  gap: 2px;
+  list-style: none;
+}
+
+header hr {
+  background-image: url(./images/hr-img.png);
+  border: 0;
+  height: 16px;
+}
