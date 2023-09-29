@@ -30,7 +30,7 @@ header {
 }
 
 h1 {
-  font-family: cursive;
+  font-family: "Yellowtail";
   font-size: 2.5rem;
   font-style: italic;
   margin: 0;
@@ -51,8 +51,58 @@ header ul {
   list-style: none;
 }
 
-header hr {
+hr {
   background-image: url(./images/hr-img.png);
   border: 0;
   height: 16px;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.main-title-container > div:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title-container > div:first-of-type > * {
+  margin: 0;
+}
+
+.main-title-container > div:last-of-type {
+  align-self: flex-end;
+}
+
+.main-title-container p {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.cake-image {
+  width: 100%;
+  object-fit: cover;
+}
+
+article p {
+  text-indent: 30px;
+  line-height: 1.5;
+  color: grey;
 }
